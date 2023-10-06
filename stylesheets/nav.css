@@ -1,0 +1,60 @@
+nav{
+    background: #f9f9f9;
+    width: 320px;
+    position: fixed;
+    top: 60px;
+    left: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 90vh;
+    display: block;
+    opacity: .1;
+    transition: all 0.5s ease;
+    border-radius: 5px;
+}
+
+nav:hover{
+    opacity: 1;
+    transition: all .1s ease;
+}
+
+nav p{
+    margin: 0;
+    font-weight: bold;
+    font-size: 14px!important;
+    word-wrap: break-word;
+    padding-left: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 12px!important;
+    padding-bottom: 3px;
+    word-wrap: break-word;
+    padding-left: 20px;
+}
+
+nav ul{
+    list-style-type: none;
+    width: 100%;
+}
+
+nav li{
+    margin: 0px 0;
+    line-height: 10px;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.sidebar{
+    padding-left: 0;
+}
+
+.table{
+    word-wrap: break-word;
+    padding: 5px;
+    margin: 5px;
+    width: 280px;
+}
